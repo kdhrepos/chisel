@@ -2,6 +2,8 @@ import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import seq._
+
 class TickTest extends AnyFlatSpec
     with ChiselScalatestTester {
     "Tick" should "pass" in {

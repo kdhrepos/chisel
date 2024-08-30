@@ -3,6 +3,8 @@ import chiseltest._
 import chisel3.util._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import collection._
+
 class RegFileTest extends AnyFlatSpec with ChiselScalatestTester {
     "RegFileTest" should "pass" in {
         test(new RegFile()){ regFile =>

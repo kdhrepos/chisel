@@ -3,6 +3,8 @@ import chiseltest._
 import chisel3.util._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import collection._
+
 class MemRegFileTest extends AnyFlatSpec with ChiselScalatestTester {
     "MemRegFileTest" should "pass" in {
         test(new MemRegFile(4)){ memRegFile =>

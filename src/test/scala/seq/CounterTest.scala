@@ -2,6 +2,8 @@ import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import seq._
+
 class CounterTest extends AnyFlatSpec
     with ChiselScalatestTester {
     "Counter" should "pass" in {

@@ -2,6 +2,8 @@ import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import seq._
+
 class NerdCounterTest extends AnyFlatSpec
     with ChiselScalatestTester {
     "NerdCounterTest" should "pass" in {

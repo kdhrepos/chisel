@@ -3,6 +3,8 @@ import chiseltest._
 import chisel3.util._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import collection._
+
 class FwdMemTest extends AnyFlatSpec with ChiselScalatestTester {
     "FwdMemTest" should "pass" in {
         test(new FwdMem()){ memRegFile =>

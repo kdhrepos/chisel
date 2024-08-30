@@ -2,6 +2,8 @@ import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import collection._
+
 // using for loop for test
 class CombLogicTest extends AnyFlatSpec
     with ChiselScalatestTester {

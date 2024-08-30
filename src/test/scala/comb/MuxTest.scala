@@ -1,5 +1,6 @@
 import chisel3._
 import chiseltest._
+import comb._
 import org.scalatest.flatspec.AnyFlatSpec
 
 class MuxTest extends AnyFlatSpec 

@@ -3,6 +3,8 @@ import chiseltest._
 import chisel3.util._
 import org.scalatest.flatspec.AnyFlatSpec
 
+import collection._
+
 class MuxNTest extends AnyFlatSpec with ChiselScalatestTester {
   "MuxN" should "pass" in {
     test(new MuxN(4, 4)) { muxN =>
