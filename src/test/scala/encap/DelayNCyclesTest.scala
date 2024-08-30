@@ -7,7 +7,7 @@ import encap._
 
 // delayed shift register test with recursive function
 class DelayNCyclesTest extends AnyFlatSpec with ChiselScalatestTester {
-    "DelayNCycleTest" should "pass" in {
+    "DelayNCyclesTest" should "pass" in {
         test(new DelayNCycles(4)) { delayNCycles =>
             delayNCycles.io.in.poke(true.B)
             delayNCycles.io.out.expect(false.B)

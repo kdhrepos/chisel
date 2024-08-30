@@ -1,3 +1,5 @@
+package collectiontest
+
 import chisel3._
 import chiseltest._
 import comb._
