@@ -3,6 +3,7 @@ package encaptest
 import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
+
 import encap._
 
 // delayed shift register test with recursive function
